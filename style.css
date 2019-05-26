@@ -105,3 +105,24 @@ img {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.block-divider-dates {
+    width: 150px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+/* --------------------------------Tour-------------------------------*/
+
+.row {
+    padding: 20px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body1 {
+    padding: 20px;
+}
