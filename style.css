@@ -20,7 +20,8 @@
 /* --------------------------------Footer -------------------------------*/
 
 .footer-signup {
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
 }
 
 .card-logo {
@@ -30,7 +31,8 @@
 }
 
 .socials {
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 250px;
 }
 
 /* --------------------------------Image -------------------------------*/
@@ -89,4 +91,17 @@ img {
 .card-img3 {
     height: 500px;
     width: 100%;
+}
+
+/* --------------------------------About -------------------------------*/
+
+.container-fluid-paragraph {
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+}
+
+.container-fluid-members {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
