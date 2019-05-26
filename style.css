@@ -17,6 +17,22 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* --------------------------------Footer -------------------------------*/
+
+.footer-signup {
+    padding: 10px;
+}
+
+.card-logo {
+    padding: 20px;
+    height: 100px;
+    width: 200px;
+}
+
+.socials {
+    padding: 20px;
+}
+
 /* --------------------------------Image -------------------------------*/
 
 .image1 {
@@ -68,4 +84,9 @@ img {
 
 .card-img2 {
     height: 40%;
+}
+
+.card-img3 {
+    height: 500px;
+    width: 100%;
 }
