@@ -1,3 +1,5 @@
+/*------------------------------ Navbar------------------------------ */
+
 .d-none a {
     color: #000;
     padding-right: 10px;
@@ -15,3 +17,55 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* --------------------------------Image -------------------------------*/
+
+.image1 {
+    position: relative;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-img {
+    height: 500px;
+}
+
+.center {
+    position: static;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 25%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* --------------------------------Latest News -------------------------------*/
+
+.container-fluid-news {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.news {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.card-img2 {
+    height: 40%;
+}

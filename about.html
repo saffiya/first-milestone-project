@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <!---------------navbar ----------------->
+    <!--navbar-->
     <header>
         <div class="container-fluid navalert-container">
 
@@ -27,19 +27,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="navbar navbar-light" style="background-color: #FF1F1F">
-                            <a class="nav-link active" href="#">Home</a>
+                            <a class="nav-link active" href="/index.html">Home</a>
                         </li>
                         <li class="navbar navbar-light" style="background-color: #FFE6E6">
-                            <a class="nav-link active" href="#">About</a>
+                            <a class="nav-link active" href="/about.html">About</a>
                         </li>
                         <li class="navbar navbar-light" style="background-color: #FFCCCC">
-                            <a class="nav-link active" href="#">Tour</a>
+                            <a class="nav-link active" href="/tour.html">Tour</a>
                         </li>
                         <li class="navbar navbar-light" style="background-color: #6BB37F">
-                            <a class="nav-link active" href="#">Music</a>
+                            <a class="nav-link active" href="/music.html">Music</a>
                         </li>
                         <li class="navbar navbar-light" style="background-color: #CCFFDA">
-                            <a class="nav-link active" href="#">Gallery</a>
+                            <a class="nav-link active" href="/gallery.html">Gallery</a>
                         </li>
 
                         <li class="active nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login"></a></li>
@@ -72,33 +72,19 @@
                             <span class="sr-only">Youtube</span></a>
                 </div>
             </nav>
-
-
         </div>
     </header>
-    <section>
+    <footer>
 
-    </section>
-    <footer class="container-fluid">
-        <div class="navbar-expand-sm">
+        <div class="footer"></div>
+        <div class="max-width footer-signup"></div>
+        <form method="get" action="/subscribe" accept-charset="UTF-8">
             <div class="footer-signup">
-                <form>
-                    <div class="footer-signup">
-                        <h6 class="footer-title">Sign Up to get concert, tour and band updates</h6>
-                    </div>
-                    <div class="footer-email col-md-3">
-                        <label for="exampleInputEmail1" class="sr-only">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    </div>
-                    <div class="col-auto">
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                </form>
+                <h6 class="footer-title">Sign Up to get concert, tour and band updates</h6>
+                <div class="center"></div>
             </div>
-        </div>
-
+            <input type="email" name="email" placeholder="Enter your email" class="footer-signup_input input input--email">
+            <button type="submit" class="footer-signup_button button button--flexible-width">Subscribe</button>
+        </form>
     </footer>
-
 </body>
-
-</html>
