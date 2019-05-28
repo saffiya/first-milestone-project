@@ -35,94 +35,274 @@
     padding-left: 250px;
 }
 
-/* --------------------------------Image -------------------------------*/
 
-.image1 {
-    position: relative;
+/* --------------------------------Mobile -------------------------------*/
+
+@media (max-width:760px) {
+
+    /* --------------------Footer ---------------*/
+    .footer-signup {
+        padding-bottom: 20px;
+    }
+
+    /* --------------------home ------------------*/
+    /*-----------images---------*/
+    .card-img {
+        height: 250px;
+    }
+    .card-img2 {
+        height: 10%;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+    .card-img3 {
+        height: 250px;
+        width: 100%;
+    }
+
+    /*-----------headings---------*/
+    .news-title {
+        font-size: 1.40rem;
+    }
+
+    .block-divider {
+        width: 50px;
+        height: 3px;
+        border: 0;
+        background-color: #444;
+    }
+
+    .container-fluid-news {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    /*-----------text---------*/
+    .about-text {
+        font-size: 0.8rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+
+    .section-paragraph {
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    /* --------------------about -----------------*/
+    /*-----------images---------*/
+    .container-fluid-members {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+    }
+
+    /*-----------text---------*/
+    .container-fluid-paragraph {
+        padding-right: 0px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .origin {
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .members {
+        font-size: 1rem;
+    }
+
+    .hometown {
+        font-size: 0.7rem;
+    }
+
+    .card-text {
+        font-size: 0.8rem;
+    }
+
+    .card-m {
+        width: 10rem;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+
+    /* --------------------tour ------------------*/
+    /*-----------Block Dividers---------*/
+    .mini {
+        width: 50px;
+        height: 2px;
+        border: 0;
+        background-color: #444;
+        padding: 0;
+    }
+
+    /*-----------text---------*/
+    .card-body-2 {
+        font-size: 0.6rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .card-body-1 {
+        font-size: 0.5rem;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .date {
+        font-size: 1rem;
+    }
+
+
+    /* --------------------music -----------------*/
+    /* --------------------gallery ---------------*/
 }
 
-.container-fluid {
-    width: 100%;
-    padding: 0;
-    margin-right: auto;
-    margin-left: auto;
-}
+/* --------------------------------Medium Devices -------------------------------*/
 
-.card-img {
-    height: 500px;
-}
+@media (min-width: 760px) {
 
-.center {
-    position: static;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 25%;
-}
+    /* --------------------Footer ---------------*/
+    .icons {
+        padding-left: 100px;
+    }
 
-img {
-    width: 100%;
-    height: auto;
-}
+    .card-logo {
+        width: 200px;
+        height: 140px;
+        padding-bottom: 20px;
+        padding-left: 25px;
+    }
 
-/* --------------------------------Latest News -------------------------------*/
+    /* --------------------Home ---------------*/
+    /*-----------Images---------*/
+    .card-img2 {
+        height: 250px;
+        width: 250px;
+    }
 
-.container-fluid-news {
-    padding-top: 10px;
-    text-align: center;
-}
+    .card-img3 {
+        height: 500px;
+        width: 100%;
+    }
 
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #444;
-}
+    /*-----------Headings---------*/
+    .container-fluid-news {
+        padding-top: 10px;
+        text-align: center;
+    }
+    /*-----------Block Divider---------*/
+    .block-divider {
+        width: 75px;
+        height: 5px;
+        border: 0;
+        background-color: #444;
+    }
 
-.news {
-    padding-left: 10%;
-    padding-right: 10%;
-}
+    /* --------------------About ---------------*/
+    /*-----------Images---------*/
+    .card-img-mm {
+        padding-left: 20px;
+    }
 
-.card-img2 {
-    height: 40%;
-}
+    .container-fluid-members {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 100px;
+    }
 
-.card-img3 {
-    height: 500px;
-    width: 100%;
-}
 
-/* --------------------------------About -------------------------------*/
+    /* --------------------Tour ---------------*/
+    /*-----------sections---------*/
+    .card-body-2 {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 10px;
+    }
 
-.container-fluid-paragraph {
-    padding-right: 80px;
-    padding-left: 80px;
-    text-align: center;
-}
+    .card-body-1 {
+        font-size: 1.0rem;
+        padding: 5px;
+        text-align: center;
+    }
+    /* --------------------music ---------------*/
+    .container-fluid-paragraph {
+        padding-right: 80px;
+        padding-left: 80px;
+        text-align: center;
+    }
 
-.container-fluid-members {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+    .center {
+        position: static;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 25%;
+    }
 
-.block-divider-dates {
-    width: 150px;
-    height: 5px;
-    border: 0;
-    background-color: #444;
-}
+    img {
+        width: 100%;
+        height: auto;
+    }
 
-/* --------------------------------Tour-------------------------------*/
+    .news {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 
-.row {
-    padding: 20px;
-}
+    .block-divider-dates {
+        width: 150px;
+        height: 5px;
+        border: 0;
+        background-color: #444;
+    }
 
-.card-body {
-    text-align: center;
-}
 
-.card-body1 {
-    padding: 20px;
+    .card-body {
+        text-align: center;
+    }
+
+    .card-body1 {
+        padding: 20px;
+    }
+
+    .image1 {
+        position: relative;
+    }
+
+    .container-fluid {
+        width: 100%;
+        padding: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .center {
+        position: static;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 25%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .news {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
 }
