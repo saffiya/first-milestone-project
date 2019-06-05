@@ -8,7 +8,6 @@
     <title>Monkees</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,87 +16,54 @@
     <!--navbar-->
     <header>
         <div class="container-fluid navalert-container">
-
             <nav class="navbar navbar-light bg-light navbar-expand-sm">
+                <a class="navbar-brand" href="#">
+                        <img src="images/Monkees_Logo.png" class="card-logo" alt="">
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span></button>
-
+                            <span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="navbar navbar-light" style="background-color: #FF1F1F">
-                            <a class="nav-link active" href="/index.html">Home</a>
+                            <a class="nav-link active" href="./index.html">Home</a>
                         </li>
                         <li class="navbar navbar-light" style="background-color: #FFE6E6">
-                            <a class="nav-link active" href="/about.html">About</a>
+                            <a class="nav-link active" href="./about.html">About</a>
                         </li>
                         <li class="navbar navbar-light" style="background-color: #FFCCCC">
-                            <a class="nav-link active" href="/tour.html">Tour</a>
+                            <a class="nav-link active" href="./tour.html">Tour</a>
                         </li>
                         <li class="navbar navbar-light" style="background-color: #6BB37F">
-                            <a class="nav-link active" href="/music.html">Music</a>
+                            <a class="nav-link active" href="./music.html">Music</a>
                         </li>
                         <li class="navbar navbar-light" style="background-color: #CCFFDA">
-                            <a class="nav-link active" href="/gallery.html">Gallery</a>
+                            <a class="nav-link active" href="./gallery.html">Gallery</a>
                         </li>
 
                         <li class="active nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login"></a></li>
                     </ul>
                 </div>
-                <div class="d-none d-md-block socials">
-                    <a target="_blank" href="https://www.facebook.com/TheMonkees">
-                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span></a>
-
-                    <a target="_blank" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck">
-                            <i class="fab fa-spotify" aria-hidden="true"></i>
-                            <span class="sr-only">Spotify</span></a>
-
-                    <a target="_blank" href="https://www.instagram.com/themonkees/">
-                            <i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span></a>
-
-                    <a target="_blank" href="https://twitter.com/themonkees">
-                            <i class="fab fa-twitter-square" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span></a>
-
-                    <a target="_blank" href="https://soundcloud.com/themonkees">
-                            <i class="fab fa-soundcloud" aria-hidden="true"></i>
-                            <span class="sr-only">Soundcloud</span></a>
-
-                    <a target="_blank" href="https://www.youtube.com/user/themonkees">
-                            <i class="fab fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">Youtube</span></a>
-                </div>
             </nav>
         </div>
     </header>
 
-    <section>
-        <div class="Image1">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <img src="images/The_monkees_main_pic.jpg" class="card-img" alt="The Monkees Band Pic">
+    <section id="top-img">
+        <img src="images/The_monkees_main_pic.jpg" class="card-img" alt="The Monkees Band Pic">
+    </section>
+
+    <section id="latest-news">
+        <div class="opaque-overlay p-3 mb-2 bg-danger text-white">
+            <div class="latest-news">
+                <div class="container-fluid-site">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="news-title">LATEST NEWS</h3>
+                            <hr class="block-divider block-divider--short">
+                        </div>
                     </div>
                 </div>
-                <div class="center"></div>
             </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="latest-news">
-            <div class="container-fluid-news">
-                <h3 class="news-title">LATEST NEWS</h3>
-                <hr class="block-divider block-divider--short">
-                <div class="center"></div>
-            </div>
-        </div>
-    </section>
-
-    <main>
-        <div class="container">
-            <div class="opaque-overlay p-3 mb-2 bg-danger text-white">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-2% col-md-4%">
                         <div class="Image2">
@@ -118,29 +84,22 @@
                 </div>
             </div>
         </div>
-    </main>
+    </section>
 
     <section>
         <div class="about">
-            <div class="container-fluid-news">
+            <div class="container-fluid-site">
                 <h3 class="news-title">EVENTS</h3>
                 <hr class="block-divider block-divider--short">
-                <h6 class="about-text"> Got an event coming up? Give your guests a night they will never forget!</h6>
-                <h6 class="about-text">With 50 years of experience selling out venues worldwide. Were the kind of energy that you need!</h6>
+                <p class="about-text"> Got an event coming up? Give your guests a night they will never forget! With 50 years of experience selling out venues worldwide. Were the kind of energy that you need!</p>
                 <div class="center"></div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="Image3">
-            <div class="container-fluid-pic">
-                <div class="row">
-                    <div class="col-12">
-                        <img src="images/The_monkees_bw.jpg" class="card-img3" alt="The Monkees Band Pic">
-                        <div class="center"></div>
-                    </div>
-                </div>
-            </div>
+
+    <section id="events">
+        <div class="container-fluid-events">
+            <img src="images/The_monkees_bw.jpg" class="card-img3" alt="The Monkees Band Pic">
         </div>
     </section>
 

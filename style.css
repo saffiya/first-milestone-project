@@ -19,6 +19,10 @@
 
 /* --------------------------------Footer -------------------------------*/
 
+.footer {
+    height: 50px;
+}
+
 .footer-signup {
     padding-top: 10px;
     padding-left: 30px;
@@ -27,12 +31,14 @@
 .card-logo {
     padding: 20px;
     height: 100px;
-    width: 200px;
+    width: 150px;
+    float: left;
 }
 
 .socials {
-    padding-top: 20px;
+    padding-top: 0px;
     padding-left: 250px;
+    float: right;
 }
 
 .color-members {
@@ -46,24 +52,48 @@
     padding-top: 20px;
 }
 
+#top-img {
+    background: url(./images/The_monkees_main_pic.jpg);
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+.footer-signup_button {
+    background-color: transparent;
+}
+
+.shadows {
+    border-radius: 5px;
+    box-shadow: 1px 0.5px 1px 2px #E86465;
+    background-color: #FFFFFF;
+}
+
+.shadow-light {
+    border-radius: 5px;
+    box-shadow: 1px 0.5px 1px 2px #E86465;
+    background-color: #FFEBEB;
+}
+
 /* --------------------------------Gallery -------------------------------*/
 
-/* --------------------------------Mobile -------------------------------*/
+/* --------------------------------Extra Small Mobile -------------------------------*/
 
-@media (max-width:760px) {
+@media (max-width:320px) {
 
     /* --------------------Footer ---------------*/
     .footer-signup {
         padding-bottom: 20px;
+        padding-left: 0px;
     }
 
     /* --------------------home ------------------*/
     /*-----------images---------*/
-    .card-img {
-        height: 250px;
-    }
     .card-img2 {
-        height: 10%;
+        height: 210px;
         width: 100%;
         padding-right: 15px;
         padding-left: 15px;
@@ -73,10 +103,20 @@
         height: 250px;
         width: 100%;
     }
+    #top-img {
+        background: url(./images/The_monkees_main_pic.jpg);
+        height: 180px;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 0px;
+    }
 
     /*-----------headings---------*/
     .news-title {
         font-size: 1.40rem;
+        text-align: center;
     }
 
     .block-divider {
@@ -97,12 +137,14 @@
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 10px;
+        text-align: center;
     }
 
     .section-paragraph {
         text-align: center;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 15px;
     }
 
 
@@ -178,13 +220,12 @@
 
     /* --------------------music -----------------*/
     /* --------------------gallery ---------------*/
-
     .gallery {
         display: inline-table;
         justify-content: center;
         align-items: center;
     }
-    
+
     .gallery-imgs {
         width: 100%;
         height: 100%;
@@ -194,7 +235,168 @@
     .col-xs-6 {
         align-items: center;
     }
-    
+
+    .row {
+        margin: 0px;
+    }
+}
+
+/* -------------------------------- Mobile -------------------------------*/
+
+@media (min-width:321px) {
+
+    /* --------------------Footer ---------------*/
+    .footer-signup {
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+
+    /* --------------------home ------------------*/
+    /*-----------images---------*/
+    .card-img2 {
+        height: 250px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+    .card-img3 {
+        height: 250px;
+        width: 100%;
+    }
+    #top-img {
+        background: url(./images/The_monkees_main_pic.jpg);
+        height: 200px;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 0px;
+    }
+
+    /*-----------headings---------*/
+    .news-title {
+        font-size: 1.40rem;
+        text-align: center;
+    }
+
+    .block-divider {
+        width: 50px;
+        height: 3px;
+        border: 0;
+        background-color: #444;
+    }
+
+    .container-fluid-site {
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    /*-----------text---------*/
+    .about-text {
+        font-size: 0.8rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .section-paragraph {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 13px;
+    }
+
+
+    /* --------------------about -----------------*/
+    /*-----------images---------*/
+    .container-fluid-members {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+    }
+
+    /*-----------text---------*/
+    .container-fluid-paragraph {
+        padding-right: 0px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .origin {
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .members {
+        font-size: 1rem;
+    }
+
+    .hometown {
+        font-size: 0.7rem;
+    }
+
+    .card-text {
+        font-size: 0.8rem;
+    }
+
+    .card-m {
+        width: 10rem;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+
+    /* --------------------tour ------------------*/
+    /*-----------Block Dividers---------*/
+    .mini {
+        width: 50px;
+        height: 2px;
+        border: 0;
+        background-color: #444;
+        padding: 0;
+    }
+
+    /*-----------text---------*/
+    .card-body-2 {
+        font-size: 0.6rem;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .card-body-1 {
+        font-size: 0.5rem;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .date {
+        font-size: 1rem;
+    }
+
+
+    /* --------------------music -----------------*/
+    /* --------------------gallery ---------------*/
+    .gallery {
+        display: inline-table;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gallery-imgs {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        padding-bottom: 15px;
+    }
+    .col-xs-6 {
+        align-items: center;
+    }
+
     .row {
         margin: 0px;
     }
@@ -231,8 +433,24 @@
         width: 100%;
     }
 
+    #top-img {
+        background: url(./images/The_monkees_main_pic.jpg);
+        height: 370px;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 60px;
+    }
+
+    .section-paragraph {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     /*-----------Headings---------*/
-    .container-fluid-news {
+    .container-fluid-site {
         padding-top: 10px;
         text-align: center;
     }
@@ -353,7 +571,7 @@
 
     /* --------------------Footer ---------------*/
     .icons {
-        padding-left: 100px;
+        padding-left: 0px;
     }
 
     .card-logo {
@@ -385,6 +603,16 @@
         height: 250px;
         width: 250px;
         padding-left: 10%;
+    }
+
+    #top-img {
+        background: url(./images/The_monkees_main_pic.jpg);
+        height: 500px;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 40px;
     }
     /* --------------------About ---------------*/
     /*-----------Images---------*/
@@ -432,7 +660,6 @@
 
     .footer-signup {
         padding-top: 10px;
-        padding-left: 50px;
     }
 
     .card-logo {
@@ -443,14 +670,22 @@
 
     .socials {
         padding-top: 50px;
-        padding-left: 210px;
     }
     /* --------------------Home ---------------*/
-    /*-----------Images---------*/
-    .card-img {
-        height: 80%;
+    #top-img {
+        background: url(./images/The_monkees_main_pic.jpg);
+        height: 600px;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 40px;
     }
 
+    .p-3 {
+        padding: 4rem!important;
+    }
+    /*-----------Images---------*/
     /*-----------headings---------*/
     .news-title {
         font-size: 1.6rem;
@@ -463,7 +698,7 @@
         background-color: #444;
     }
 
-    .container-fluid-news {
+    .container-fluid-site {
         padding-top: -30px;
         text-align: center;
     }
@@ -476,17 +711,175 @@
     .container-fluid-paragraph {
         padding-right: 60px;
         padding-left: 60px;
-        ` text-align: center;
+        text-align: center;
         font-size: 1.2rem;
         padding-bottom: 40px;
     }
 
+
+
     /*-----------Styles---------*/
-    .p-3 {
-        padding: 3rem!important;
+    .video {
+        width: 100%;
+        height: 70%;
     }
-    /* --------------------About ---------------*/
-    /* --------------------Tour ---------------*/
-    /* --------------------Music ---------------*/
-    /* --------------------Gallery ---------------*/
-}
+    /* --------------------------------Mobile -------------------------------*/
+    @media (max-width:760px) {
+
+        /* --------------------Footer ---------------*/
+        .footer-signup {
+            padding-bottom: 20px;
+        }
+
+        /* --------------------home ------------------*/
+        /*-----------images---------*/
+        .card-img2 {
+            height: 10%;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 10px;
+        }
+        .card-img3 {
+            height: 250px;
+            width: 100%;
+        }
+        #top-img {
+            background: url(./images/The_monkees_main_pic.jpg);
+            height: 200px;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-bottom: 0px;
+        }
+
+        /*-----------headings---------*/
+        .news-title {
+            font-size: 1.40rem;
+        }
+
+        .block-divider {
+            width: 50px;
+            height: 3px;
+            border: 0;
+            background-color: #444;
+        }
+
+        .container-fluid-site {
+            padding-top: 10px;
+            text-align: center;
+        }
+
+        /*-----------text---------*/
+        .about-text {
+            font-size: 0.8rem;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+        }
+
+        .section-paragraph {
+            text-align: center;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+
+        /* --------------------about -----------------*/
+        /*-----------images---------*/
+        .container-fluid-members {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 50px;
+        }
+
+        /*-----------text---------*/
+        .container-fluid-paragraph {
+            padding-right: 0px;
+            padding-left: 0px;
+            text-align: center;
+        }
+
+        .origin {
+            text-align: center;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .members {
+            font-size: 1rem;
+        }
+
+        .hometown {
+            font-size: 0.7rem;
+        }
+
+        .card-text {
+            font-size: 0.8rem;
+        }
+
+        .card-m {
+            width: 10rem;
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
+
+        /* --------------------tour ------------------*/
+        /*-----------Block Dividers---------*/
+        .mini {
+            width: 50px;
+            height: 2px;
+            border: 0;
+            background-color: #444;
+            padding: 0;
+        }
+
+        /*-----------text---------*/
+        .card-body-2 {
+            font-size: 0.6rem;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .card-body-1 {
+            font-size: 0.5rem;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .date {
+            font-size: 1rem;
+        }
+
+
+        /* --------------------music -----------------*/
+        /* --------------------gallery ---------------*/
+        .gallery {
+            display: inline-table;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gallery-imgs {
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            padding-bottom: 15px;
+        }
+        .col-xs-6 {
+            align-items: center;
+        }
+
+        .row {
+            margin: 0px;
+        }
+
+        /* --------------------About ---------------*/
+        /* --------------------Tour ---------------*/
+        /* --------------------Music ---------------*/
+        /* --------------------Gallery ---------------*/
+    }
