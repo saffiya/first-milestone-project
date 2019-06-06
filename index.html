@@ -101,6 +101,78 @@
         <div class="container-fluid-events">
             <img src="images/The_monkees_bw.jpg" class="card-img3" alt="The Monkees Band Pic">
         </div>
+        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">Book Us Now</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEmail4">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputName">Full Name</label>
+                                    <input type="text" class="form-control" id="inputName" placeholder="Susan Star">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Address</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputEventType">Type Of Event</label>
+                                    <input type="text" class="form-control" id="inputEventType" placeholder="Birthday, Graduation, Wedding">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputContactNumber">Contact Number</label>
+                                    <input type="number" class="form-control" id="inputContactNumber" placeholder="07869542867">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputCity">City</label>
+                                    <input type="text" class="form-control" id="inputCity">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputCountry">Country</label>
+                                    <input type="text" class="form-control" id="inputCountry">
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <label for="inputPostcode">Postcode</label>
+                                    <input type="text" class="form-control" id="inputPostcode">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputNotes">Notes</label>
+                                    <input type="text" class="form-control" id="inputNotes" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">Check me out</label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Sign in</button>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>

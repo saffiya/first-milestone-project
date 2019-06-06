@@ -46,6 +46,7 @@
     padding: 20px;
 }
 
+
 .Tour-color {
     background-color: #FFCCCC;
     padding-bottom: 50px;
@@ -219,6 +220,9 @@
 
 
     /* --------------------music -----------------*/
+      .playlist1 {
+        width: 100%;
+    }
     /* --------------------gallery ---------------*/
     .gallery {
         display: inline-table;
@@ -560,6 +564,12 @@
         padding-left: 10%;
         padding-right: 10%;
     }
+    .playlist1 {
+        width: 100%;
+    }
+    .playlist2 {
+        width: 100%;
+    }
 
 }
 
@@ -636,6 +646,12 @@
     }
 
     /* --------------------Music ---------------*/
+    .playlist1 {
+        width: 100%;
+    }
+    .playlist2 {
+        width: 100%;
+    }
     /* --------------------Gallery ---------------*/
     .gallery {
         padding: 10px;
@@ -721,7 +737,7 @@
     /*-----------Styles---------*/
     .video {
         width: 100%;
-        height: 70%;
+        height: 80%;
     }
     /* --------------------------------Mobile -------------------------------*/
     @media (max-width:760px) {
@@ -857,8 +873,8 @@
 
 
         /* --------------------music -----------------*/
-        .container-fluid-playlists {
-            width: 80%;
+        .playlist1 {
+            width: 100%;
             align-items: center;
         }
         /* --------------------gallery ---------------*/
