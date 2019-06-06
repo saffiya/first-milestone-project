@@ -857,6 +857,10 @@
 
 
         /* --------------------music -----------------*/
+        .container-fluid-playlists {
+            width: 80%;
+            align-items: center;
+        }
         /* --------------------gallery ---------------*/
         .gallery {
             display: inline-table;
