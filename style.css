@@ -17,6 +17,20 @@
     font-family: 'Roboto', sans-serif;
 }
 
+li a:hover {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 30px;
+    -khtml-border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #dedede;
+    color: white;
+}
+
 /* --------------------------------Footer -------------------------------*/
 
 .footer {
@@ -220,7 +234,7 @@
 
 
     /* --------------------music -----------------*/
-      .playlist1 {
+    .playlist1 {
         width: 100%;
     }
     /* --------------------gallery ---------------*/
