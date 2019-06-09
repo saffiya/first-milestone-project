@@ -17,16 +17,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-li a:hover {
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 30px;
-    -khtml-border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    font-family: 'Roboto', sans-serif;
+.navbar li:hover {
     background-color: #dedede;
     color: white;
 }
@@ -68,17 +59,29 @@ li a:hover {
 }
 
 #top-img {
-    background: url(./images/The_monkees_main_pic.jpg);
+    background: url(./images/themonkeesmainpic.jpg);
     height: 600px;
+    width: 100%;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
+}
+
+#events-background {
+    background: url(./images/themonkeesbw.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
 }
 
 .footer-signup_button {
-    background-color: transparent;
+    background-color: #e2e2e2;
 }
 
 .shadows {
@@ -119,7 +122,7 @@ li a:hover {
         width: 100%;
     }
     #top-img {
-        background: url(./images/The_monkees_main_pic.jpg);
+        background: url(./images/themonkeesmainpic.jpg);
         height: 180px;
         background-position: center;
         background-attachment: fixed;
@@ -162,13 +165,29 @@ li a:hover {
         font-size: 15px;
     }
 
+    .book-us-button {
+        position: absolute;
+        top: 270%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        color: black;
+        font-size: 16px;
+        padding: 20px 40px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
+
 
     /* --------------------about -----------------*/
     /*-----------images---------*/
     .container-fluid-members {
         padding-top: 20px;
         padding-bottom: 20px;
-        padding-left: 50px;
+        padding-left: 0px;
     }
 
     /*-----------text---------*/
@@ -283,7 +302,7 @@ li a:hover {
         width: 100%;
     }
     #top-img {
-        background: url(./images/The_monkees_main_pic.jpg);
+        background: url(./images/themonkeesmainpic.jpg);
         height: 200px;
         background-position: center;
         background-attachment: fixed;
@@ -325,6 +344,21 @@ li a:hover {
         padding-right: 0px;
         font-size: 13px;
     }
+    .book-us-button {
+        position: absolute;
+        top: 190%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        color: black;
+        font-size: 16px;
+        padding: 20px 40px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
 
 
     /* --------------------about -----------------*/
@@ -332,7 +366,7 @@ li a:hover {
     .container-fluid-members {
         padding-top: 20px;
         padding-bottom: 20px;
-        padding-left: 50px;
+        padding-left: 0px;
     }
 
     /*-----------text---------*/
@@ -398,6 +432,9 @@ li a:hover {
 
 
     /* --------------------music -----------------*/
+    .playlist1 {
+        width: 100%;
+    }
     /* --------------------gallery ---------------*/
     .gallery {
         display: inline-table;
@@ -452,19 +489,20 @@ li a:hover {
     }
 
     #top-img {
-        background: url(./images/The_monkees_main_pic.jpg);
+        background: url(./images/themonkeesmainpic.jpg);
         height: 370px;
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
-        margin-bottom: 60px;
+        margin-bottom: 0px;
     }
 
     .section-paragraph {
         text-align: center;
         padding-left: 0px;
         padding-right: 0px;
+        font-size: 13px;
     }
 
     /*-----------Headings---------*/
@@ -479,6 +517,22 @@ li a:hover {
         border: 0;
         background-color: #444;
     }
+    .book-us-button {
+        position: absolute;
+        top: 125%;
+        bottom: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        color: black;
+        font-size: 16px;
+        padding: 20px 45px 40px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
 
     /* --------------------About ---------------*/
     /*-----------Images---------*/
@@ -489,7 +543,7 @@ li a:hover {
     .container-fluid-members {
         padding-top: 20px;
         padding-bottom: 20px;
-        padding-left: 30px;
+        padding-left: 0px;
     }
 
 
@@ -622,6 +676,21 @@ li a:hover {
     }
 
     /* --------------------Home ---------------*/
+    .book-us-button {
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        color: black;
+        font-size: 16px;
+        padding: 20px 40px 40px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
     /*-----------Images---------*/
     .card-img2 {
         height: 250px;
@@ -630,13 +699,20 @@ li a:hover {
     }
 
     #top-img {
-        background: url(./images/The_monkees_main_pic.jpg);
+        background: url(./images/themonkeesmainpic.jpg);
         height: 500px;
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
+    }
+
+    .section-paragraph {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 16px;
     }
     /* --------------------About ---------------*/
     /*-----------Images---------*/
@@ -647,7 +723,7 @@ li a:hover {
     .container-fluid-members {
         padding-top: 20px;
         padding-bottom: 20px;
-        padding-left: 125px;
+        padding-left: 0px;
     }
 
 
@@ -703,17 +779,24 @@ li a:hover {
     }
     /* --------------------Home ---------------*/
     #top-img {
-        background: url(./images/The_monkees_main_pic.jpg);
+        background: url(./images/themonkeesmainpic.jpg);
         height: 600px;
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     }
 
     .p-3 {
         padding: 4rem!important;
+    }
+
+    .section-paragraph {
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 16px;
     }
     /*-----------Images---------*/
     /*-----------headings---------*/
@@ -753,6 +836,21 @@ li a:hover {
         width: 100%;
         height: 80%;
     }
+    .book-us-button {
+        position: absolute;
+        top: 175%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        color: black;
+        font-size: 16px;
+        padding: 20px 40px 40px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
+    }
     /* --------------------------------Mobile -------------------------------*/
     @media (max-width:760px) {
 
@@ -775,7 +873,7 @@ li a:hover {
             width: 100%;
         }
         #top-img {
-            background: url(./images/The_monkees_main_pic.jpg);
+            background: url(./images/themonkeesmainpic.jpg);
             height: 200px;
             background-position: center;
             background-attachment: fixed;
@@ -821,7 +919,7 @@ li a:hover {
         .container-fluid-members {
             padding-top: 20px;
             padding-bottom: 20px;
-            padding-left: 50px;
+            padding-left: 0px;
         }
 
         /*-----------text---------*/
