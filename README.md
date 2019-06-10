@@ -78,23 +78,34 @@ Also on multiple mobile devices:
 </ul>
 to ensure compatability and responsiveness.
 
+
 <p>During the testing stage the following was found:</p>
 <ul>
 <li>The text from the latest news section did not look right next to the image on mobile devices; therefore i placed the text just below the image of Peter Tork.</li>
 <li>The Book Us Now button was drifting to the top of the page, therefore the percentage of alignment had to be changed to accomadate smaller devices.</li>
 <li>The Pictures of each band member on the about page did not fit well across the page on smaller devices; it became neccessary to place them below each other on smaller devices.</li>
-<li>On the Tour page there was padding that was making my boxes go unaligned on smaller screens so i removed the padding.</li>
-<li>On the music page it was overwhelming to have 3 playlists on smaller screens and honestly made it quiet difficult to operate that page. Now on smaller screens there is only one playlist, on medium screens there are two playlists and on large screens there are three</p>
-<li>The youtube video on the music page covered the entire page as soon as you clicked on the music button so i had to offset the video</li>
-<li>The gallery page was completely squashed and looked horrid on smaller screens so i made sure to change the layout.</li>
-<li>Now on smaller screens instead of there being four images on one row,there is one per row and you scroll for more.</li>
+<li>On the Tour page there was padding that was making the boxes go unaligned on smaller screens; therefore the padding was removed.</li>
+<li>On the music page it was overwhelming to have 3 playlists on smaller screens, which made it quiet difficult to operate that page. Now on smaller screens there is only one playlist; on medium screens there are two playlists and on large screens there are three.</p>
+<li>The youtube video on the music page covered the entire page as soon as you clicked on the music button, so i had to offset the video
+<li>The gallery page was completely squashed and looked horrid on smaller screens, therefore it was neccessary to change the layout.</li>
+Now on smaller screens, instead of there being four images on one row,there is one per row and you scroll for more.</li>
 By conducting all these tests i have made sure that the site works perfectly on all screen sizes.
 </ul>
 
 <p>If you try to submit the Book Us Now modal form with an invalid email address, there will be an error noting the invalid email address.
-The 'required' attribute has been added to the 'name', 'email', 'address', 'Type of event', 'Contact number', 'city', 'country' and 'postcode' fields,
-so if those fields are not filled in, the form will not submit. 
-If all fields are valid, the page will reload. If anyone wants to book the band to play at their event they need ot fill out this form and those details are extremely relevant.</p>
+The 'required' attribute has been added to the follwing fields:
+<ul>
+<li>name</li>
+<li>email</li>
+<li>address</li>
+<li>Type of event</li>
+<li>Contact number</li>
+<li>city</li>
+<li>country</li>
+<li>postcode</li>
+</ul>
+As a result. if those fields are not filled in, the form will not submit. 
+If all fields are valid, the page will reload. If anyone wants to book the band to play at their event they need to fill out this form as those details are extremely relevant.</p>
 
 <h3>Deployment</h3>
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch.
@@ -109,15 +120,15 @@ https://saffiya.github.io/first-milestone-project/ into your terminal. To cut ti
 The text for the latest news section was copied from the monkees site about Peter Tork.
 https://www.monkees.com/article/rip-peter-tork
 
-The text for used in the about page was taken from wikipedia.
+The text used in the about page was taken from wikipedia.
 https://en.wikipedia.org/wiki/The_Monkees
 
 The tour information was taken from the monkees site.
 https://www.monkees.com/article/monkees-2019-tour-dates
 
 <h3>Media</h3>
-The photos used in this site were obtained from the assets folder provided to me from the GitHub repo i recived when i was given my brief.
-A few images were taken from google using the filter 'free to share and use' section therefore avoiding any copyright.
+The photos used in this site were obtained from the assets folder, provided to me from the GitHub repo; received when i was given my brief.
+A few images were taken from google using the filter 'free to share and use' section, therefore avoiding any copyright.
 
 <h3>Acknowledgements</h3>
 
