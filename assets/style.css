@@ -5,13 +5,33 @@
     padding-right: 10px;
 }
 
+.index-nav {
+    background-color: #FF1F1F
+}
+
+.about-nav {
+    background-color: #FFE6E6
+}
+
+.tour-nav {
+    background-color: #FFCCCC
+}
+
+.music-nav {
+    background-color: #6BB37F
+}
+
+.gallery-nav {
+    background-color: #CCFFDA
+}
+
 .navbar li {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 30px;
     -khtml-border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-bottom: 0px;
     padding-top: 0px;
     font-family: 'Roboto', sans-serif;
@@ -51,11 +71,19 @@
     padding: 20px;
 }
 
-
 .Tour-color {
     background-color: #FFCCCC;
     padding-bottom: 50px;
     padding-top: 20px;
+}
+
+.color-music {
+    background-color: #6BB37F;
+    padding-bottom: 50px;
+}
+
+.text-color-music {
+    color: white;
 }
 
 #top-img {
@@ -225,7 +253,7 @@
 
 
     /* --------------------tour ------------------*/
-    /*-----------Block Dividers---------*/
+    /*-----------Block Divider---------*/
     .mini {
         width: 50px;
         height: 2px;
@@ -238,12 +266,12 @@
     .card-body-2 {
         font-size: 0.6rem;
         text-align: center;
-        padding: 10px;
+        padding: 0px;
     }
 
     .card-body-1 {
         font-size: 0.5rem;
-        padding: 5px;
+        padding: 0px;
         text-align: center;
     }
 
@@ -417,12 +445,12 @@
     .card-body-2 {
         font-size: 0.6rem;
         text-align: center;
-        padding: 10px;
+        padding: 0px;
     }
 
     .card-body-1 {
         font-size: 0.5rem;
-        padding: 5px;
+        padding: 0px;
         text-align: center;
     }
 
@@ -557,12 +585,12 @@
 
     .card-body-1 {
         font-size: 1.0rem;
-        padding: 5px;
+        padding: 0px;
         text-align: center;
     }
 
     .card-body1 {
-        padding: 20px;
+        padding: 0px;
     }
 
     /* --------------------music ---------------*/
@@ -851,6 +879,12 @@
         border-radius: 5px;
         text-align: center;
     }
+    
+    /* --------------------Music ---------------*/
+    
+    .playlist3 {
+        width: 100%;
+    }
     /* --------------------------------Mobile -------------------------------*/
     @media (max-width:760px) {
 
@@ -893,7 +927,7 @@
             border: 0;
             background-color: #444;
         }
-
+     
         .container-fluid-site {
             padding-top: 10px;
             text-align: center;
