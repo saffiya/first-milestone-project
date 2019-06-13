@@ -14,14 +14,14 @@ The website highlights their:
 <li>Band members and what they play</li>
 </ul>
 
-<h3>Demo</h3>
-<p>Please click on the link below to view my site<br> https://saffiya.github.io/first-milestone-project/ </p>
-
 <p>By adding all this information on the site, it is hoped all users, young and old,
 will find it easy to navigate; finding all that they desire without having to travel elsewhere.
 An illustration of this is demonstrated by the way music videos and spotify playlists have been placed on the site;
 to supersede a link for the user to follow which would have taken the user out of the site.
 Instead, the user can press play to listen and then click on the next page or thing that they want, thereby making the site extremely efficient.</p>
+
+<h3>Demo</h3>
+<p>Please click on the link below to view my site<br> https://saffiya.github.io/first-milestone-project/ </p>
 
 <h3>UX</h3>
 <p>The goal for this design was to make it as easy as possible to access information on the site, whilst striving for a simple yet fun design.
