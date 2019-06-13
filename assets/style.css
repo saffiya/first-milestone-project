@@ -87,8 +87,21 @@
     color: white;
 }
 
+/*-------------*/
+
 #top-img {
     background: url(./images/themonkeesmainpic.jpg);
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0px;
+}
+
+#first-img {
+    background: url(./images/tmc.jpg);
     height: 600px;
     width: 100%;
     background-position: center;
@@ -123,6 +136,10 @@
     border-radius: 5px;
     box-shadow: 1px 0.5px 1px 2px #E86465;
     background-color: #FFEBEB;
+}
+
+.container {
+    align-items: center;
 }
 
 /* --------------------------------Gallery -------------------------------*/
@@ -880,9 +897,8 @@
         border-radius: 5px;
         text-align: center;
     }
-    
+
     /* --------------------Music ---------------*/
-    
     .playlist3 {
         width: 100%;
     }
@@ -928,7 +944,7 @@
             border: 0;
             background-color: #444;
         }
-     
+
         .container-fluid-site {
             padding-top: 10px;
             text-align: center;

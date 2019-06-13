@@ -53,9 +53,9 @@ In the future, I would like to add instagram and facebook pictures onto the gall
 
 <h3>Technologies Used</h3>
 <ul>
-<li>Adobe color: to find complementary shades to go with red; which was then used across the entire site.</li>
-<li>Bootstrap: to help place modals, navbar and forms.</li>
-<li>Hover.css: to help add shadow to the table in the tour section of the site.</li>
+<li>Adobe color: to find complementary shades to go with red (#dc3545). The complementary HEX codes were used across the entire site.</li>
+<li>Bootstrap: to help with the html code behind modals, navbar and forms; i built upon the html found in bootrstrap within my site to get the layout and style desired.</li>
+<li>Hover.css: the CSS codes found here were nvery helpful when adding shadow to the table in the tour section of the site.</li>
 
 <h3>Testing</h3>
 The site was tested across multiple browsers:
@@ -82,14 +82,17 @@ to ensure compatability and responsiveness.</br>
 <p>During the testing stage the following was found:</p>
 <ul>
 <li>The text from the latest news section did not look right next to the image on mobile devices; therefore i placed the text just below the image of Peter Tork.</li>
+<li>The latest news section kept drifting upon my first image on the home page; to fix this the removal of all the html code i had wrote to position the image was crucial.
+The code was replaced with a top-img id and followed by some fundamental css; which kept the image in place. The changes made here were then duplicated for the events-background image, and the about page first image; Which revealed a much more polished look.
 <li>The Book Us Now button was drifting to the top of the page, therefore the percentage of alignment had to be changed to accomadate smaller devices.</li>
 <li>The Pictures of each band member on the about page did not fit well across the page on smaller devices; it became neccessary to place them below each other on smaller devices.</li>
 <li>On the Tour page there was padding that was making the boxes go unaligned on smaller screens; therefore the padding was removed.</li>
 <li>On the music page it was overwhelming to have 3 playlists on smaller screens, which made it quite difficult to operate that page. Now on smaller screens there is only one playlist; on medium screens there are two playlists and on large screens there are three.</p>
-<li>The youtube video on the music page covered the entire page as soon as you clicked on the music button, so i had to offset the video
+<li>The youtube video on the music page covered the entire page as soon as you clicked on the music button, so i had to offset the video in my css;
 <li>The gallery page was completely squashed and looked horrid on smaller screens, therefore it was neccessary to change the layout.</li>
 Now on smaller screens, instead of there being four images on one row,there is one per row and you scroll for more.</li>
 By conducting all these tests i have made sure that the site works perfectly on all screen sizes.
+<li>The modal form was not validated, therefore i adjusted the html so that they were.</li>
 </ul>
 
 <p>If you try to submit the Book Us Now modal form with an invalid email address, there will be an error noting the invalid email address.
