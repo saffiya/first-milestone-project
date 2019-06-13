@@ -14,6 +14,9 @@ The website highlights their:
 <li>Band members and what they play</li>
 </ul>
 
+<h3>Demo</h3>
+<p>Please click on the link below to view my site<br> https://saffiya.github.io/first-milestone-project/ </p>
+
 <p>By adding all this information on the site, it is hoped all users, young and old,
 will find it easy to navigate; finding all that they desire without having to travel elsewhere.
 An illustration of this is demonstrated by the way music videos and spotify playlists have been placed on the site;
