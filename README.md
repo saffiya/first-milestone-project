@@ -139,3 +139,6 @@ A few images were taken from google using the filter 'free to share and use' sec
 <h3>Acknowledgements</h3>
 
 The spotify playlists was taken from https://developer.spotify.com/documentation/widgets/guides/adding-a-spotify-play-button/
+Wikipedia equipped me with information regarding the band.
+CSS-Tricks helped me with css code when i got stuck; sharing some fundamental tips.
+w3schools.com has alot of great information; which helped when i got stuck with the positioning of certain items on my site.
