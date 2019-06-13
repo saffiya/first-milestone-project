@@ -68,15 +68,15 @@ The site was tested across multiple browsers:
 
 Also on multiple mobile devices:
 <ul>
-<li>iPhone 5-8</li>
-<li>i phone X</li>
+<li>IPhone 5-8</li>
+<li>Iphone X</li>
 <li>IPad</li>
 <li>IPad Pro</li>
 <li>Galaxy S5</li>
 <li>Pixel 2</li>
 <li>Pixel 2 XL;</li>
 </ul>
-to ensure compatability and responsiveness.
+to ensure compatability and responsiveness.</br>
 
 
 <p>During the testing stage the following was found:</p>
@@ -85,7 +85,7 @@ to ensure compatability and responsiveness.
 <li>The Book Us Now button was drifting to the top of the page, therefore the percentage of alignment had to be changed to accomadate smaller devices.</li>
 <li>The Pictures of each band member on the about page did not fit well across the page on smaller devices; it became neccessary to place them below each other on smaller devices.</li>
 <li>On the Tour page there was padding that was making the boxes go unaligned on smaller screens; therefore the padding was removed.</li>
-<li>On the music page it was overwhelming to have 3 playlists on smaller screens, which made it quiet difficult to operate that page. Now on smaller screens there is only one playlist; on medium screens there are two playlists and on large screens there are three.</p>
+<li>On the music page it was overwhelming to have 3 playlists on smaller screens, which made it quite difficult to operate that page. Now on smaller screens there is only one playlist; on medium screens there are two playlists and on large screens there are three.</p>
 <li>The youtube video on the music page covered the entire page as soon as you clicked on the music button, so i had to offset the video
 <li>The gallery page was completely squashed and looked horrid on smaller screens, therefore it was neccessary to change the layout.</li>
 Now on smaller screens, instead of there being four images on one row,there is one per row and you scroll for more.</li>
@@ -96,15 +96,15 @@ By conducting all these tests i have made sure that the site works perfectly on 
 The 'required' attribute has been added to the follwing fields:
 <ul>
 <li>name</li>
-<li>email</li>
+<li>email</li> 
 <li>address</li>
-<li>Type of event</li>
-<li>Contact number</li>
+<li>type of event</li>
+<li>contact number</li>
 <li>city</li>
 <li>country</li>
 <li>postcode</li>
 </ul>
-As a result. if those fields are not filled in, the form will not submit. 
+As a result; if those fields are not filled in, the form will not submit. 
 If all fields are valid, the page will reload. If anyone wants to book the band to play at their event they need to fill out this form as those details are extremely relevant.</p>
 
 <h3>Deployment</h3>

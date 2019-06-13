@@ -45,7 +45,8 @@
 /* --------------------------------Footer -------------------------------*/
 
 .footer {
-    height: 50px;
+    height: 100px;
+    background-color: white;
 }
 
 .footer-signup {
@@ -74,7 +75,7 @@
 .Tour-color {
     background-color: #FFCCCC;
     padding-bottom: 50px;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 .color-music {
