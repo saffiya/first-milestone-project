@@ -58,7 +58,7 @@ In the future, I would like to add instagram and facebook pictures onto the gall
 <ul>
 <li>Adobe color: to find complementary shades to go with red (#dc3545). The complementary HEX codes were used across the entire site.</li>
 <li>Bootstrap: to help with the html code behind modals, navbar and forms; i built upon the html found in bootrstrap within my site to get the layout and style desired.</li>
-<li>Hover.css: the CSS codes found here were nvery helpful when adding shadow to the table in the tour section of the site.</li>
+<li>Hover.css: the CSS codes found here were very helpful when adding shadow to the table in the tour section of the site.</li>
 
 <h3>Testing</h3>
 The site was tested across multiple browsers:
@@ -137,8 +137,13 @@ The photos used in this site were obtained from the assets folder, provided to m
 A few images were taken from google using the filter 'free to share and use' section, therefore avoiding any copyright.
 
 <h3>Acknowledgements</h3>
-
-The spotify playlists was taken from https://developer.spotify.com/documentation/widgets/guides/adding-a-spotify-play-button/
-Wikipedia equipped me with information regarding the band.
-CSS-Tricks helped me with css code when i got stuck; sharing some fundamental tips.
-w3schools.com has alot of great information; which helped when i got stuck with the positioning of certain items on my site.
+<ul>
+<li>The spotify playlists was taken from https://developer.spotify.com/documentation/widgets/guides/adding-a-spotify-play-button/</li>
+<li>Wikipedia equipped me with information regarding the band.</li>
+<li>CSS-Tricks helped me with css code when i got stuck; sharing some fundamental tips.</li>
+<li>w3schools.com has alot of great information; which helped when i got stuck with the positioning of certain items on my site.</li>
+<li>Bootstrap helped me with with html code behind modals, navbar and forms.</<li>
+<li>Hover.css: the css codes found here were very helpful when addding shadow to the table in the tour section of the site.</li>
+<li>Slack users helped me find faults in my code when something wouldnt work correctly.</li>
+<li>By using Google images filter section, i was able to get copyright free pictures that were used in my project.</li>
+</ul>
